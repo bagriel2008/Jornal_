@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 99.2vw;
+    height: 15%;
+    background-color: #E7D5B9;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    height: 11vh;
+    width: 5vw;
+    position: absolute;
+    top: 0;
+    left: 3.75rem;
+    
+}
+.fa-user {
+    font-size: 3rem;
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.fa-house{
+    font-size: 3rem;
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: black;
+}
+
+svg{
+    position: absolute;
+    top: 1rem;
+    right: 3.75rem;
+
+}
+
+.linha{
+    height: 0.3vh;
+    background-color: #000;
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #000;
+    filter: blur(1px);
+}
+
+.titulo {
+    color: #000;
+    text-align: center;
+    text-shadow: 10px 4px 5px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 5rem;
+    font-style: italic;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.tituloo{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.subtitulo{
+    padding: 10px 0 0 0;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+img{
+    height: 50vh;
+    width: 40vw;
+    margin-right: 20px;
+    padding: 0 0 0 30px;
+}
+
+.impresa2 img{
+    width:400px ;
+    height:500px ;
+  
+}
+
+
+
+
+.texto{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+main{
+    background-color: #525D83;
+    height:auto;
+}
+.texto p{
+    padding: 20px 0 0 0 ;
+}
+
+a{
+    text-decoration: none;
+}
